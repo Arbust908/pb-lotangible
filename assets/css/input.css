@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+  font-family: "ArsenalWhite";
+  src: url("../fonts/ArsenaleWhite.ttf");
+  src: url("../fonts/ArsenaleWhite.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  display: swap;
+}
+.font-main {
+  font-family: "ArsenalWhite";
+}

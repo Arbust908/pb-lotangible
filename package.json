@@ -1,0 +1,15 @@
+{
+  "name": "pb-lotangible",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:tw": "npx tailwindcss build ./assets/css/input.css -o ./assets/css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  }
+}
