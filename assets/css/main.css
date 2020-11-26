@@ -638,6 +638,10 @@ video {
   clear: both;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
 }
@@ -657,6 +661,10 @@ video {
 
 .min-h-screen {
   min-height: 100vh;
+}
+
+.opacity-75 {
+  opacity: 0.75;
 }
 
 .overflow-auto {
@@ -701,6 +709,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .w-8\/12 {
@@ -793,6 +805,10 @@ video {
 
 .font-main {
   font-family: "ArsenalWhite";
+}
+
+.font-second {
+  font-family: "Open Sans", sans-serif;
 }
 
 @media (min-width: 640px) {

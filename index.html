@@ -31,12 +31,16 @@
     <meta property="twitter:site" content="www.lotangible.com" />
     <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="./assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <style>
       .bg-main {
         background-color: #f3e9dc;
       }
       .text-main {
-        /* color: #335527; */
         color: #7d8e70;
       }
       .text-second {
@@ -46,11 +50,14 @@
   </head>
   <body>
     <main
-      class="bg-main min-h-screen w-full relative flex justify-center items-center"
+      class="bg-main min-h-screen w-full relative flex justify-center items-center font-second"
     >
-      <h1 class="absolute p-4 top-0 left-0 font-main text-2xl text-main">
-        Lo Tangible
-      </h1>
+      <header class="absolute p-4 top-0 left-0">
+        <h1 class="font-main text-2xl text-main">Lo Tangible</h1>
+        <h2 class="italic text-second opacity-75 text-sm">
+          Adj. Que puede ser tocado
+        </h2>
+      </header>
       <div class="w-8/12 mx-auto max-w-md">
         <img class="w-full" src="./assets/svg/logo.svg" alt="Logo" />
         <p class="text-center text-second leading-tight">
